@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B01CFF628F3440000409E93 /* Hcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01CFF528F3440000409E93 /* Hcard.swift */; };
+		0B01CFF828F3454F00409E93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01CFF728F3454F00409E93 /* HomeView.swift */; };
+		0B01CFFA28F34D8200409E93 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01CFF928F34D8200409E93 /* SideMenu.swift */; };
+		0B01CFFC28F3568100409E93 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B01CFFB28F3568100409E93 /* MenuRow.swift */; };
 		0B5F166628EF5F94003BD2B4 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F166328EF5F94003BD2B4 /* Inter-Regular.ttf */; };
 		0B5F166728EF5F94003BD2B4 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F166428EF5F94003BD2B4 /* Poppins-Bold.ttf */; };
 		0B5F166828EF5F94003BD2B4 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B5F166528EF5F94003BD2B4 /* Inter-SemiBold.ttf */; };
@@ -34,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B01CFF528F3440000409E93 /* Hcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hcard.swift; sourceTree = "<group>"; };
+		0B01CFF728F3454F00409E93 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0B01CFF928F34D8200409E93 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		0B01CFFB28F3568100409E93 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		0B5F166328EF5F94003BD2B4 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		0B5F166428EF5F94003BD2B4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		0B5F166528EF5F94003BD2B4 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 				0B63BEEB28F09FA4009107A2 /* SignInView.swift */,
 				0B82548928F1F7020092D9DF /* TabBar.swift */,
 				0BF79B2F28F2103300BEEF09 /* VCard.swift */,
+				0B01CFF528F3440000409E93 /* Hcard.swift */,
+				0B01CFF728F3454F00409E93 /* HomeView.swift */,
+				0B01CFF928F34D8200409E93 /* SideMenu.swift */,
+				0B01CFFB28F3568100409E93 /* MenuRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,8 +268,11 @@
 			files = (
 				0BF21F7928EE16160033B176 /* OnBoardingView.swift in Sources */,
 				0B5F166B28EF611B003BD2B4 /* CustomFont.swift in Sources */,
+				0B01CFF828F3454F00409E93 /* HomeView.swift in Sources */,
+				0B01CFFA28F34D8200409E93 /* SideMenu.swift in Sources */,
 				0BF79B2E28F20FFD00BEEF09 /* Course.swift in Sources */,
 				0BCBC70D28F0A6C7008A3BFF /* CustomTextField.swift in Sources */,
+				0B01CFF628F3440000409E93 /* Hcard.swift in Sources */,
 				0B82548A28F1F7020092D9DF /* TabBar.swift in Sources */,
 				0BF79B3028F2103300BEEF09 /* VCard.swift in Sources */,
 				0BF21F5728EE11F10033B176 /* ContentView.swift in Sources */,
@@ -265,6 +280,7 @@
 				0B63BEEC28F09FA4009107A2 /* SignInView.swift in Sources */,
 				0BF79B2C28F20FD800BEEF09 /* CourseSection.swift in Sources */,
 				0BCBC70F28F0ABD4008A3BFF /* Extensions.swift in Sources */,
+				0B01CFFC28F3568100409E93 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
