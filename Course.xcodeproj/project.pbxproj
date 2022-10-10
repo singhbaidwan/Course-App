@@ -81,6 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B02D28328F4B47200BD6CED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0BF79B2F28F2103300BEEF09 /* VCard.swift */,
+				0B01CFFB28F3568100409E93 /* MenuRow.swift */,
+				0B01CFF528F3440000409E93 /* Hcard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0B02D28428F4B49B00BD6CED /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0BF21F5628EE11F10033B176 /* ContentView.swift */,
+				0B01CFF928F34D8200409E93 /* SideMenu.swift */,
+				0B82548928F1F7020092D9DF /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		0B5F166228EF5F94003BD2B4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,12 +116,7 @@
 			children = (
 				0BF21F7828EE16160033B176 /* OnBoardingView.swift */,
 				0B63BEEB28F09FA4009107A2 /* SignInView.swift */,
-				0B82548928F1F7020092D9DF /* TabBar.swift */,
-				0BF79B2F28F2103300BEEF09 /* VCard.swift */,
-				0B01CFF528F3440000409E93 /* Hcard.swift */,
 				0B01CFF728F3454F00409E93 /* HomeView.swift */,
-				0B01CFF928F34D8200409E93 /* SideMenu.swift */,
-				0B01CFFB28F3568100409E93 /* MenuRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,15 +150,16 @@
 		0BF21F5328EE11F10033B176 /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				0BF21F5428EE11F10033B176 /* CourseApp.swift */,
+				0B02D28328F4B47200BD6CED /* Components */,
+				0B02D28428F4B49B00BD6CED /* Navigation */,
+				0B82548728F1F61A0092D9DF /* Views */,
 				0BF79B2A28F20FC900BEEF09 /* Model */,
 				0B5F166928EF5FBD003BD2B4 /* Info.plist */,
-				0BF21F5428EE11F10033B176 /* CourseApp.swift */,
-				0BF21F5628EE11F10033B176 /* ContentView.swift */,
 				0BF21F5828EE11F40033B176 /* Assets.xcassets */,
 				0B5F166228EF5F94003BD2B4 /* Fonts */,
 				0BF21F6228EE12500033B176 /* RiveAssets */,
 				0BF21F5A28EE11F40033B176 /* Preview Content */,
-				0B82548728F1F61A0092D9DF /* Views */,
 				0B82548828F1F6380092D9DF /* Styles */,
 			);
 			path = Course;
